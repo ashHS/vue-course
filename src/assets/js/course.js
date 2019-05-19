@@ -1,0 +1,10 @@
+$(function(){
+	/*全选*/
+	$('#all').click(function(){
+		if($(this).is(":checked")){
+			$('td').find('input').prop("checked",true);
+		}else{
+			$('td').find('input').prop("checked",false);
+		}
+	});
+});
