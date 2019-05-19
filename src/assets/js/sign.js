@@ -1,5 +1,5 @@
 $(function(){
-	alert(1)
+	
 	var account = $("#account");
 	var password = $("#password");
 	var password2 = $("#password2");
